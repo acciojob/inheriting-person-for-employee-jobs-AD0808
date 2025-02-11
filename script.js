@@ -12,7 +12,7 @@ class Person{
 
 class Employee extends Person{
 	constructor(name, age, jobTitle) {
-		super(make, model);
+		super(name, age);
 		this.jobTitle = jobTitle;
 	}
 	jobGreet(){
