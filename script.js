@@ -19,7 +19,7 @@ function Employee(name, age, jobTitle) {
 
 
 Employee.prototype.greet = function() {
-    console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`)
+    console.log(`Hello, my name is ${this.name}, I am ${this.age} years old. and my jon title is ${this.jobTitle}`)
 };
 
 // Do not change code below this line
